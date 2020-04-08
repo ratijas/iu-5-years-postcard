@@ -1,0 +1,14 @@
+[package]
+name = "iu5years"
+version = "0.1.0"
+authors = ["ivan tkachenko <ratijas@users.noreply.github.com>"]
+
+[dependencies]
+
+# GUI
+termion = "1.4.0"
+
+[dependencies.tui]
+version = "0.1.3"
+default-features = false
+features = ['termion']
